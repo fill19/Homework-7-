@@ -14,9 +14,9 @@ public class Solution {
         firstTask letters = new firstTask(someText);
         HashMap texts = letters.getOccurrenceOfText();
         System.out.println(texts);
-        System.out.println("All letters: " + letters.allLetters());
-        System.out.println("Digit numbers: " + letters.digitOfNumbers() );
-        System.out.println("Punctuation marks: " + letters.punctuationMark());
+        System.out.println("\nAll letters: " + letters.allLetters());
+        System.out.println("\nDigit numbers: " + letters.digitOfNumbers() );
+        System.out.println("\nPunctuation marks: " + letters.punctuationMark());
     }
 }
 
